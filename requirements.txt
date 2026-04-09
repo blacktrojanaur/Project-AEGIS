@@ -1,0 +1,8 @@
+# Offline-installable wheels only.
+# Download ahead of time with:
+#   pip download -r requirements.txt -d ./wheels
+# Install offline with:
+#   pip install --no-index --find-links=./wheels -r requirements.txt
+
+click>=8.1.7
+cryptography>=42.0.5
