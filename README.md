@@ -1,6 +1,6 @@
 # Project Aegis 🛡️
 
-**Offline Cybersecurity Suite — Air-Gapped | Zero-Trust | Python 3.10+**
+**Offline Cybersecurity Suite —Air-Gapped | Zero-Trust | Python 3.10+**
 
 Project Aegis is a modular, locally-run cybersecurity toolkit designed for
 air-gapped and high-security environments.  
