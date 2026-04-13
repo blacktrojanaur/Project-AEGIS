@@ -50,7 +50,6 @@ project_aegis/
 ```bash
 pip install -r requirements.txt
 ```
-
 ### Offline (air-gapped)
 
 On an internet-connected machine:
