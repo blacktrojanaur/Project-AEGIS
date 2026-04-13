@@ -277,6 +277,7 @@ def vault_group() -> None:
     """
 
 
+
 @vault_group.command("set")
 @click.argument("name")
 @click.option("--value",  "-v", default=None,  help="Secret value (prompted if omitted).")
