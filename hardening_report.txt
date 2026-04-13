@@ -1,0 +1,35 @@
+Project Aegis — System Hardening Report
+Platform : Windows
+Score    : 0/100
+Pass/Fail/Warn/Skip : 0/0/1/9
+============================================================
+
+[-] Guest Account                  SKIP
+    Could not query guest account status.
+
+[-] Password Policy                SKIP
+    Could not query password policy.
+
+[-] Firewall                       SKIP
+    Could not query firewall status.
+
+[-] UAC                            SKIP
+    Registry query failed.
+
+[!] AutoRun                        WARN
+    AutoRun policy key not found — may be enabled by default.
+
+[-] SMB Signing                    SKIP
+    Registry query failed (run as admin?).
+
+[-] RDP NLA                        SKIP
+    Registry query failed (run as admin?).
+
+[-] Audit Policy                   SKIP
+    auditpol requires admin privileges.
+
+[-] WinRM                          SKIP
+    Could not query WinRM service.
+
+[-] Windows Defender               SKIP
+    Could not query Defender status.
